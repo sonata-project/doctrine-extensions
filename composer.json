@@ -1,0 +1,45 @@
+{
+    "name": "sonata-project/doctrine-extensions",
+    "type": "symfony-bundle",
+    "description": "Symfony doctrine extensions",
+    "keywords": [
+        "doctrine"
+    ],
+    "homepage": "https://sonata-project.org/bundles/doctrine-extensions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Rabaix",
+            "email": "thomas.rabaix@sonata-project.org",
+            "homepage": "https://sonata-project.org"
+        },
+        {
+            "name": "Sonata Community",
+            "homepage": "https://github.com/sonata-project/doctrine-extensions/contributors"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^3.3 || ^4.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sonata\\DoctrineExtensions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sonata\\DoctrineExtensions\\Tests\\": "tests/"
+        }
+    }
+}
